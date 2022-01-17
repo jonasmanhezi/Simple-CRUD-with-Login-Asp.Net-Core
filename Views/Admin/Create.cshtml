@@ -21,18 +21,42 @@
                 <span asp-validation-for="Data" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Horario" class="control-label"></label>
-                <input asp-for="Horario" class="form-control" />
+                <label asp-for="Horario" class="control-label">Horarios Disponiveis</label>
+                <select asp-for="Horario" class="form-control">
+                    <option value="">-- Selecione um Horario: --</option>
+                    <option value="09:00">09:00</option>
+                    <option value="10:00">10:00</option>
+                    <option value="11:00">11:00</option>
+                    <option value="13:00">13:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                    <option value="16:00">16:00</option>
+                    <option value="17:00">17:00</option>
+                </select>
                 <span asp-validation-for="Horario" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Especialidade" class="control-label"></label>
-                <input asp-for="Especialidade" class="form-control" />
+                <label asp-for="Especialidade" class="control-label">Especialidade:</label>
+                <select asp-for="Especialidade" class="form-control">
+                    <option value="">-- Selecione uma Especialidade --</option>
+                    <option value="Periodontia">Periodontia</option>
+                    <option value="Ortodontia">Ortodontia</option>
+                    <option value="Estética">Estética</option>
+                    <option value="Canal">Canal</option>
+                    <option value="Tratamento de Carie">Tratamento de Carie</option>
+                </select>
                 <span asp-validation-for="Especialidade" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Convenio" class="control-label"></label>
-                <input asp-for="Convenio" class="form-control" />
+                <label asp-for="Convenio" class="control-label">Convenios:</label>
+                <select asp-for="Convenio" class="form-control">
+                    <option value="">-- Selecione um Convenio: --</option>
+                    <option value="AMIL">AMIL</option>
+                    <option value="Bradesco Saude">Bradesco Saude</option>
+                    <option value="Estética">Estética</option>
+                    <option value="Unimed">Unimed</option>
+                    <option value="Care Plus">CarePlus</option>
+                </select>
                 <span asp-validation-for="Convenio" class="text-danger"></span>
             </div>
             <div class="form-group" style="align-content: center; text-align: center;">

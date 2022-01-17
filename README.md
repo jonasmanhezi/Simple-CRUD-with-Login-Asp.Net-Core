@@ -1,6 +1,6 @@
 <h1 align="center">Simple CRUD ASP.NET CORE </h1>
 
-<h3 align="center">Sistema WEB simples desenvolvido utilizando .NET Core, SQL SERVER e Entity Framework  👨🏻‍💻 </h3>
+<h3 align="center">Sistema WEB simples desenvolvido utilizando .NET Core, SQL SERVER e Entity Framework 💻 </h3>
 <br>
 <p align="center">Qual foi a ideia?</p>
 <p align="center">A ideia foi criar um site para uma clinica dentaria, ter uma aba para o usuario marcar consulta e tambem ter uma parte para o responsavel pela clinica gerir as consultas criadas.</p>

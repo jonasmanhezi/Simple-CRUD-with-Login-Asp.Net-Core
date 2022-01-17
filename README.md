@@ -11,10 +11,18 @@
 <img align="center" alt="Jonas-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div>
 
+<div style="display: inline_block" align = "center"><br>
+<a href="https://docs.microsoft.com/pt-br/dotnet/csharp/>" target="_blank"> <img src="https://img.shields.io/static/v1?label=Linguagem&message=.NET Core 2.1.1&color=purple"  </a>
+<a href="https://docs.microsoft.com/pt-br/ef/" target="_blank"> <img src="https://img.shields.io/static/v1?label=Framework&message=Entity Framework 2.1.1&color=blue"></a>
+</div>
+
+
 <h2 align="center">Preview</h2>
 
 
 <img  align ="center" src="https://user-images.githubusercontent.com/67005476/149814525-4142ce5b-1f19-4701-9164-6d01b7a4c170.PNG">
 
-
-[Preview no Youtube](https://www.youtube.com/watch?v=mt22koC7_C8)
+<div style="display: inline_block" align = "center">
+ <p align="center">Preview on Youtube: 👇👇</p>
+<a href="https://www.youtube.com/watch?v=mt22koC7_C8" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
+</div>

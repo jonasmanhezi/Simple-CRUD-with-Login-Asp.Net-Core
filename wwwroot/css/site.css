@@ -1,0 +1,230 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+.col-md-8 {
+    margin-left: 100px;
+}
+
+#btnSubmit {
+    margin-top: 30px;
+}
+
+label {
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.footer {
+    margin-top: 30px
+}
+
+#serviços {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    background-color: #22577A;
+}
+
+ #serviços div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 1px;
+    background-color: #22577A;
+    height:300px;
+    }
+
+#title {
+    display: flex;
+    flex-direction: row;
+}
+
+#foco {
+    width: 100%;
+    height: 385px;
+    background: url('/images/banner4.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: 0%;
+    margin-right: 500%;
+    border-right: 500px;
+    border-top: 500px;
+    padding: 80px;
+    padding-right: 100px;
+}
+
+ #foco h1 {
+        font-size: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;
+        text-shadow: 2px 2px 6px black;
+        text-align: center;
+        padding: 0%;
+        margin-bottom: 20px;
+        line-height: 80px;
+        margin-inline: 50px;
+        margin-top: 0px;
+    }
+#btn {
+    margin-top:20px;
+    background-color: #57CC99;
+    color: white;
+    width: 200px;
+    height:30px;
+    font-size: 14px;
+    border: rgb(87, 204, 153) solid;
+}
+#Mid {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 110px;
+    margin: initial;
+}
+#h2 {
+    text-align: center;
+}
+#separator {
+    border-top: 2px solid;
+    color: lightgray;
+    width:200px
+}
+#btn2 {
+    margin-left: 450px;
+    align-content: center;
+    background-color: #57CC99;
+    color: white;
+    width: 180px;
+    padding: 8px 0;
+    font-size: 20px;
+    border: rgb(87, 204, 153) solid;
+    text-align: center;
+    line-height: 28px;
+    margin-top:30px;
+}
+#foco2 {
+    width: 100%;
+    height: 645px;
+    background: url('/images/banner7.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: 0%;
+    margin-right: 500%;
+    border-right: 500px;
+    border-top: 500px;
+    padding: 80px;
+    padding-right: 100px;
+}
+#Mid2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 110px;
+    margin: initial;
+}
+#maindiv {
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+    margin-top: 10px;
+    height:600px
+}
+#form {
+    margin-top: 30px;
+}
+
+#usuarioForm{
+    margin-top:20px;
+    margin-left:200px;
+    margin-bottom:50px;
+}
+#botaodiv {
+    text-align: center;
+}
+
+#btn3{
+    background-color: #22577A;
+    color: white;
+    width: 220px;
+    padding: 8px 0;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 40px;
+}
+#contato {
+    width: 100%;
+    height: 645px;
+    background: url('/images/contact.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 500%;
+    border-right: 500px;
+    border-top: 500px;
+    padding: 80px;
+    padding-right: 100px;
+}
+#btn4 {
+    margin-left:1200px;
+    align-content: center;
+    background-color: #57CC99;
+    color: white;
+    width: 100px;
+    padding: 8px 0;
+    font-size: 15px;
+    border: rgb(87, 204, 153) solid;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 30px;
+}

@@ -1,0 +1,49 @@
+﻿@model Easy_Dentes_Final.Models.Consultas
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2 style="text-align:center; margin-top:40px;">Editar Consulta</h2>
+<hr />
+<div class="row" id="maindiv">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ConsultaId" />
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Data" class="control-label"></label>
+                <input asp-for="Data" class="form-control" />
+                <span asp-validation-for="Data" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Horario" class="control-label"></label>
+                <input asp-for="Horario" class="form-control" />
+                <span asp-validation-for="Horario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Especialidade" class="control-label"></label>
+                <input asp-for="Especialidade" class="form-control" />
+                <span asp-validation-for="Especialidade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Convenio" class="control-label"></label>
+                <input asp-for="Convenio" class="form-control" />
+                <span asp-validation-for="Convenio" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="align-content: center; text-align: center;">
+                <input  style="background-color: #22577A; color: white;margin-top:20px" type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

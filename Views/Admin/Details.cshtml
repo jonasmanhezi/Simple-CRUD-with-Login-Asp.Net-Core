@@ -1,0 +1,49 @@
+﻿@model Easy_Dentes_Final.Models.Consultas
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2 style="text-align:center " >Detalhes da Consulta</h2>
+
+<div>
+    <h4 style="text-align:center ">Consultas </h4>
+    <hr />
+    <dl style="align-content:center">
+        <dt style="text-align:center ">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd style="text-align:center ">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt style="text-align:center ">
+            @Html.DisplayNameFor(model => model.Data)
+        </dt>
+        <dd style="text-align:center ">
+            @Html.DisplayFor(model => model.Data)
+        </dd>
+        <dt style="text-align:center ">
+            @Html.DisplayNameFor(model => model.Horario)
+        </dt>
+        <dd style="text-align:center ">
+            @Html.DisplayFor(model => model.Horario)
+        </dd>
+        <dt style="text-align:center ">
+            @Html.DisplayNameFor(model => model.Especialidade)
+        </dt>
+        <dd style="text-align:center ">
+            @Html.DisplayFor(model => model.Especialidade)
+        </dd>
+        <dt style="text-align:center ">
+            @Html.DisplayNameFor(model => model.Convenio)
+        </dt>
+        <dd style="text-align:center ">
+            @Html.DisplayFor(model => model.Convenio)
+        </dd>
+    </dl>
+</div>
+<div id="maindiv">
+
+    <a style="text-align:center; height:30px; " class="btn btn-success details" asp-action="Index">Back to List</a>
+    <a style="text-align: center; height: 30px; margin-left: 10px " class="btn btn-primary edit" asp-action="Edit" asp-route-id="@Model.ConsultaId">Edit</a>
+</div>

@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Easy_Dentes_Final.Models.Consultas>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<section style="background-color:#f0f0f0; height:700px; margin-top:0;">
+    <br />
+    <br />
+    <h2>Consultas</h2>
+    <p>
+        <a asp-action="Create" id="btn4">Nova Consulta</a>
+    </p>
+    <table class="table" style="background-color: white;">
+        <thead style="background-color: #22577A; color:white">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Data)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Horario)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Especialidade)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Convenio)
+                </th>
+                <th>
+                    Acões
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Data)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Horario)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Especialidade)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Convenio)
+                    </td>
+                    <td>
+                        <a class="btn btn-success details" asp-action="Edit" asp-route-id="@item.ConsultaId">Edit</a> |
+                        <a class="btn btn-primary edit" asp-action="Details" asp-route-id="@item.ConsultaId">Details</a> |
+                        <a class="btn btn-danger delete" asp-action="Delete" asp-route-id="@item.ConsultaId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</section>
+
+
+
+
+    

@@ -1,0 +1,51 @@
+﻿@model Easy_Dentes_Final.Models.Consultas
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2 style="text-align:center">Deletar</h2>
+
+<h3 style="text-align:center">Tem certeza que quer deletar?</h3>
+<div>
+    <h4 style="text-align:center">Consultas</h4>
+    <hr />
+    <dl style="align-content:center">
+        <dt style="text-align:center ">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd style="text-align:center ">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt style="text-align:center ">
+            @Html.DisplayNameFor(model => model.Data)
+        </dt>
+        <dd style="text-align:center ">
+            @Html.DisplayFor(model => model.Data)
+        </dd>
+        <dt style="text-align:center ">
+            @Html.DisplayNameFor(model => model.Horario)
+        </dt>
+        <dd style="text-align:center ">
+            @Html.DisplayFor(model => model.Horario)
+        </dd>
+        <dt style="text-align:center ">
+            @Html.DisplayNameFor(model => model.Especialidade)
+        </dt>
+        <dd style="text-align:center ">
+            @Html.DisplayFor(model => model.Especialidade)
+        </dd>
+        <dt style="text-align:center ">
+            @Html.DisplayNameFor(model => model.Convenio)
+        </dt>
+        <dd style="text-align:center ">
+            @Html.DisplayFor(model => model.Convenio)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete" id="maindiv">
+        <input type="hidden" asp-for="ConsultaId" />
+        <a class="btn btn-success details" style="text-align: center; height: 30px; margin-left: 10px"asp-action="Index">Back to List</a>
+        <input style="text-align: center; height: 30px; margin-left: 10px "type="submit" value="Delete" class="btn btn-danger delete" />
+    </form>
+</div>
